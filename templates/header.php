@@ -1,11 +1,11 @@
 <?php
 require_once('lib/config.php');
+require_once('lib/pdo.php');
 
 $currentPage = basename($_SERVER["SCRIPT_NAME"]);
 
 ?>
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
