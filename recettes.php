@@ -2,11 +2,9 @@
 require_once('templates/header.php');
 require_once('lib/recipe.php');
 
-$sql = 'SELECT * FROM recipes ORDER BY id DESC';
+$recipes = getRecipes($pdo);
+// Rappel : l'appel à PDO a été défini avant dans le fichier header.php, donc pas besoin de Require/Require_once ici.
 
-$query = $pdo->prepare($sql);
-$query->execute();
-$recipes = $query->fetchALL();
 ?>
 
 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
