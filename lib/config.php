@@ -4,6 +4,7 @@ define('_RECIPES_IMG_PATH_', '/uploads/recipes/');
 define('_ASSETS_IMG_PATH_', 'assets/images/');
 define ('HOME_RECIPES_LIMIT', 3);
 
+//Gestion des éléments du MENU du site
 // l'URL étant unique, c'est plus logique de la placer en tant que Clé ($key) qui est forcément unique par nature
 $mainMenu = [
     'index.php' => 'Accueil',
