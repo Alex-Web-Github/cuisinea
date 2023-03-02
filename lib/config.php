@@ -1,6 +1,6 @@
 <?php
 // Création d'une constante pour définir le chemin vers le répertoire de nos images de recettes
-define('_RECIPES_IMG_PATH_', '/uploads/recipes/');
+define('_RECIPES_IMG_PATH_', 'uploads/recipes/');
 define('_ASSETS_IMG_PATH_', 'assets/images/');
 define ('HOME_RECIPES_LIMIT', 3);
 
