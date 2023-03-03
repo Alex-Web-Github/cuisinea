@@ -1,4 +1,13 @@
 <?php
+if(!isset($_SESSION['user'])){
+    // l'utilisateur n'est pas inscrit, on va le rediriger vers la page 'login.php'
+    header('location: login.php');
+
+} else {
+
+
+}
+
 require_once('templates/header.php');
 require_once('lib/recipe.php');
 require_once('lib/tools.php');
